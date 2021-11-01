@@ -1,0 +1,17 @@
+{
+  "transport": "scp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "192.168.1.127",
+  "port": "6969",
+  "target": "/var/www/djtest",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "david",
+  "keyfile": "C:/Users/David/.ssh/id_rsa",
+  "passphrase": "Dexas159",
+  "watch": []
+}
